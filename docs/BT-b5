@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1,0">
+        <title>Menu</title>
+        <link rel="stylesheet" href="Menu.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <div class="home">Diandy</div>
+            <div class="option">
+                <button type="button">Trang chủ</button>
+                <button type="button">Chọn món</button>
+                <button type="button">Giới thiệu</button>
+            </div>
+            <div class="infor">
+                <i class="fa-solid fa-phone"></i>
+                <div class="lienhe">
+                    <h2>+84905222446</h2>
+                    <p>Online 24/7</p>
+                </div>
+                <a href="dangnhap">Đăng nhập</a>/
+                <a href="dangky">Đăng ký</a>
+                <button class="shopping_cart" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </div>
+        </header>
+        <main>
+            <div class="menu">
+                <div class="box-header">
+                    <h2>CHỌN MÓN</h2>
+                </div>
+                <div class="box-main">
+                    <div class="box">
+                        <a href="#mi">
+                            <img src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/11/28/dung-thu-3-the-gioi-ve-luong-tieu-thu-vi-sao-nguoi-viet-yeu-thich-mi-an-lien-100150455-166962651181871924262.jpg" 
+                            alt="Erro"
+                            width="100"
+                            height="100"></br>
+                            <span>Mì</span>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#monnhau">
+                            <img src="https://storage.quannhautudo.com/data/thumb_1200/Data/images/product/2023/06/202306271709202695.webp" 
+                            alt="Erro"
+                            width="100"
+                            height="100"></br>
+                            <span>Món nhập</span>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#lau">
+                            <img src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/lau_thap_cam_gom_nhung_gi_0_ae9f028d35.jpg" 
+                            alt="Erro"
+                            width="100"
+                            height="100"></br>
+                            <span>Lẩu</span>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#haisan">
+                            <img src="https://statics.vincom.com.vn/xu-huong/anh_thumbnail/image10-1671618306.png" 
+                            alt="Erro"
+                            width="100"
+                            height="100"></br>
+                            <span>Hải sản</span>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#ga">
+                            <img src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2023_11_6_638348285697999992_mon-ga-nuong-thumbnail.jpg" 
+                            alt="Erro"
+                            width="100"
+                            height="100"></br>
+                            <span>Gà</span>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#goi">
+                            <img src="https://cdn.tgdd.vn/Files/2021/05/03/1348098/goi-me-ga-gion-ngot-an-com-cung-bat-ma-lai-rai-thi-cuc-ngon-202105031341182416.jpg" 
+                            alt="Erro"
+                            width="100"
+                            height="100"></br>
+                            <span>Gỏi</span>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#com">
+                            <img src="https://dulichhaugiang.com.vn/wp-content/uploads/2024/04/DLHG_Dac-San-Com-Tam-O-Mien-Tay6.jpg" 
+                            alt="Erro"
+                            width="100"
+                            height="100"></br>
+                            <span>Cơm</span>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#douong">
+                            <img src="https://baristaschool.vn/wp-content/uploads/2021/07/tu-dien-do-uong.jpg" 
+                            alt="Erro"
+                            width="100"
+                            height="100"></br>
+                            <span>Đồ uống</span>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#anvat">
+                            <img src="https://dulichhaugiang.com.vn/wp-content/uploads/2024/04/DLHG_Dac-San-Com-Tam-O-Mien-Tay6.jpg" 
+                            alt="Erro"
+                            width="100"
+                            height="100"></br>
+                            <span>Ăn vặt</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="list">
+                <div class="cash">
+                    <img src="https://futuredish.com/wp-content/uploads/2020/04/Korean-Beef-Radish-scaled.jpg" 
+                    alt="Erro"
+                    width="100"
+                    height="100">
+                    <p class="name">Beef Radish Soup - Beef Soup With</p>
+                    <p class="characteristic">Ăn vặt, Mì</p>
+                    <p class="cost">165.000 ₫</p>
+                    <button type="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="cash">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQUHzNOjqrU9M2XBYMzV7avoICWU_hYsPuBg&s" 
+                    alt="Erro"
+                    width="100"
+                    height="100">
+                    <p class="name">Cold Korean Noodles</p>
+                    <p class="characteristic">Ăn vặt, Mì</p>
+                    <p class="cost">130.000 ₫</p>
+                    <button type="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="cash">
+                    <img src="https://www.oliversmarket.com/wp-content/uploads/2019/04/Korean-Ramen-Goreng-1080x720-1.jpg" 
+                    alt="Erro"
+                    width="100"
+                    height="100">
+                    <p class="name">Korean Spicy Fried Noodles - Spicy</p>
+                    <p class="characteristic">Ăn vặt, Mì</p>
+                    <p class="cost">215.000 ₫</p>
+                    <button type="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="cash">
+                    <img src="https://cdn.mediamart.vn/images/news/di-mon-vi-hung-dn-lam-mi-kho-xa-xiu-ngon-nhu-ngoai-hang_16bbe0f5.jpg" 
+                    alt="Erro"
+                    width="100"
+                    height="100">
+                    <p class="name">Mì khô</p>
+                    <p class="characteristic">Mì</p>
+                    <p class="cost">59.000 ₫</p>
+                    <button type="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="cash">
+                    <img src="https://cdn.tgdd.vn/Files/2018/04/01/1078986/bat-mi-nhung-nguyen-lieu-nau-mi-ramen-chuan-vi-nhat-ban-202103021011014368.jpg" 
+                    alt="Erro"
+                    width="100"
+                    height="100">
+                    <p class="name">Mì Miso Ramen Kiểu nhật</p>
+                    <p class="characteristic">Ăn vặt, Mì</p>
+                    <p class="cost">247.000 ₫</p>
+                    <button type="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="cash">
+                    <img src="https://fullofplants.com/wp-content/uploads/2024/03/vegan-rabokki-tteokbokki-with-ramen-noodles-thumb.jpg" 
+                    alt="Erro"
+                    width="100"
+                    height="100">
+                    <p class="name">Tteokbokki With Noodles</p>
+                    <p class="characteristic">Ăn vặt, Mì</p>
+                    <p class="cost">170.000 ₫</p>
+                    <button type="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="cash">
+                    <img src="https://www.justonecookbook.com/wp-content/uploads/2024/03/Kake-Udon-7549-I-1.jpg" 
+                    alt="Erro"
+                    width="100"
+                    height="100">
+                    <p class="name">Udon Noodles</p>
+                    <p class="characteristic">Ăn vặt, Mì</p>
+                    <p class="cost">155.000 ₫</p>
+                    <button type="button">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
